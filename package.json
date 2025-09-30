@@ -1,0 +1,20 @@
+{
+  "name": "git-ignore-explainer",
+  "version": "1.0.0",
+  "description": "A webpage explaining everything about .gitignore",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "git",
+    "gitignore",
+    "webpage",
+    "documentation"
+  ],
+  "author": "Anshul Raghuvanshi",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

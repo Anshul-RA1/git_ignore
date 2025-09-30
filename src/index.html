@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.gitignore Explained</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Understanding .gitignore</h1>
+      <button class="toggle-btn" id="toggleMode">🌙 Dark Mode</button>
+    </header>
+    <main>
+      <section>
+        <h2>What is .gitignore?</h2>
+        <p>
+          .gitignore is a file that tells Git which files (or patterns) it
+          should ignore in a project. This is useful for excluding files that
+          are not necessary to track, such as build artifacts, temporary files,
+          or sensitive information.
+        </p>
+      </section>
+      <section>
+        <h2>Why Use .gitignore?</h2>
+        <p>
+          Using a .gitignore file helps keep your repository clean and focused
+          on the files that matter. It prevents unnecessary files from being
+          tracked, which can reduce clutter and improve performance.
+        </p>
+      </section>
+      <section>
+        <h2>Common Patterns</h2>
+        <p>
+          Here are some common patterns you might include in a .gitignore file:
+        </p>
+        <ul>
+          <li><code>*.log</code> - Ignore all log files</li>
+          <li>
+            <code>node_modules/</code> - Ignore the node_modules directory
+          </li>
+          <li><code>*.env</code> - Ignore environment variable files</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Examples</h2>
+        <p>Here are some examples of .gitignore files:</p>
+        <pre>
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all files in the temp directory
+temp/
+            </pre
+        >
+      </section>
+    </main>
+    <footer>
+      <p>
+        For more information, check the
+        <a href="content/gitignore.md">detailed documentation</a>.
+      </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
